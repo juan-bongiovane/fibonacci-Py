@@ -1,8 +1,10 @@
+# La función calcula el número de fibonacci en la posicion n
+
 def fibonacci(n):
 
     a = 0
     b = 1
-
+    
     if n<=1:
         return n
     
@@ -10,5 +12,4 @@ def fibonacci(n):
         temp = a + b
         a = b
         b = temp
-        print(a, b)
-    return b
+    return a
